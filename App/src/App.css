@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  background: linear-gradient(160deg, #f8cdb3 0%, #ebebeb 50%, #ffd1b8 100%);
+  font-family: sans-serif;
+  color: #1a1a1a;
+}
+
+main {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0 0 1.5rem;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid #cfcfcf;
+  border-radius: 999px;
+  background: #ebebeb;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+form input {
+  padding: 0.9rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 999px;
+  background: white;
+}
+
+form button {
+  background: #ff5a00;
+  border-color: #ff5a00;
+  color: white;
+}
+
+.filtres {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.filtres button {
+  flex: 1;
+  padding: 0.6rem 0.4rem;
+  font-size: 0.9rem;
+}
+
+.filtres .actif {
+  background: #ff5a00;
+  border-color: #ff5a00;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.8rem 1.2rem;
+  margin-bottom: 0.6rem;
+  background: white;
+  border-radius: 999px;
+}
+
+li input {
+  accent-color: #ff5a00;
+}
+
+li .texte {
+  flex: 1;
+}
+
+li button {
+  padding: 0.2rem 0.5rem;
+  border: none;
+  background: none;
+  color: #888;
+}
+
+li.terminee .texte {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.vide {
+  text-align: center;
+  color: gray;
+}
+
+.compteur {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
